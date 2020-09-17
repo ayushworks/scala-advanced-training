@@ -25,7 +25,6 @@ object PatternMatching extends App {
   // which takes arguments and creates an object,
   // the unapply takes an object
   // and tries to give back the arguments
-
   class Person(val name: String, val age: Int)
 
   object Person {
