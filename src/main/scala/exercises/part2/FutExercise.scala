@@ -16,7 +16,7 @@ object FutExercise extends App {
   def first[A](one: Future[A], two: Future[A]) : Future[A] = ???
 
   //4. create a new Future with the value of the future that completes LAST
-  // hint : use 1 promises
+  // hint : use 2 promises
   def last[A](one: Future[A], two: Future[A]) : Future[A] = ???
 
 
