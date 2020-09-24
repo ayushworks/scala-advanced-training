@@ -43,7 +43,7 @@ object Futures extends App {
   // 1. we can import one value that is present in scala.concurrent package
   // 2. or you can also create an execution context of your own
 
-  val executionContext: ExecutionContext = ExecutionContext.fromExecutor(Executors.newFixedThreadPool(100))
+  val executionContext1: ExecutionContext = ExecutionContext.fromExecutor(Executors.newFixedThreadPool(100))
 
 
 
